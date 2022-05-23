@@ -1,0 +1,90 @@
+body {
+  background-color: #a5a58d;
+}
+
+h1 {
+  color: #bdc1c6;
+  font-size: 30px;
+  font-stretch: 100;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  line-height: 30px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  color: RGB(135, 135, 135);
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 100;
+  line-height: 20px;
+  margin: 0;
+  padding: 0px;
+}
+
+.weather.app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.tempNumber {
+  font-size: 40px;
+}
+
+.tempElement {
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 6px;
+  padding-left: 2px;
+}
+.float-left {
+  margin-top: -19px;
+  display: inline-block;
+}
+
+.weather-forecast {
+  font-size: 12px;
+  text-align: center;
+}
+
+.weather-forecast-day {
+  text-align: center;
+}
+
+.weather-forecast-min {
+  margin-right: 2px;
+  opacity: 0.7;
+}
+
+.weather-forecast-max {
+  margin-left: 2px;
+  color: black;
+}
+
+#source-code {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.App {
+  margin: 20px;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: arial;
+  padding: 30px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
